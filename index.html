@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ER:LC Live CAD Map</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>ER:LC CAD Map</h1>
+</header>
+
+<div id="map"></div>
+
+<div id="legend">
+    <h3>Legend</h3>
+
+    <p><span class="green"></span> 10-8 Available</p>
+    <p><span class="red"></span> 10-7 Out of Service</p>
+    <p><span class="blue"></span> On Call</p>
+</div>
+
+<script src="postals.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
